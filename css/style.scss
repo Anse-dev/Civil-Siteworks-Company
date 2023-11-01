@@ -29,6 +29,7 @@ img {
   max-width: 100%;
   width: 100%;
 }
+
 a,
 button {
   border: 0;
@@ -52,17 +53,21 @@ h5,
 h6 {
   font-size: 1em;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 $primary-bg: #574940;
 $secondary-bg: #a15805;
+
 .text-primary {
   text-transform: uppercase;
   color: $primary-bg;
   font-weight: 600;
 }
+
 .btn-primary {
   border: 1px solid transparent;
   padding: 12px 20px;
@@ -70,16 +75,19 @@ $secondary-bg: #a15805;
   font-weight: 600;
   box-shadow: 0px 4px 6px rgba(29, 28, 28, 0.601);
 }
+
 .btn-secondary {
   border: 1px solid $primary-bg;
   padding: 14px 20px;
   font-weight: 600;
   transition: all 0.5s;
+
   &:hover {
     background-color: $primary-bg;
     color: #fff;
   }
 }
+
 .container {
   max-width: 1200px;
   width: 100%;
@@ -106,6 +114,7 @@ $secondary-bg: #a15805;
     left: 0;
     background-color: #574940a1;
   }
+
   .header {
     position: absolute;
     z-index: 3;
@@ -119,11 +128,13 @@ $secondary-bg: #a15805;
       align-items: center;
       grid-template-columns: auto 1fr;
     }
+
     &__logo {
       font-size: 2rem;
       font-weight: bolder;
       color: #fff;
     }
+
     .navigation {
       &__menu {
         display: flex;
@@ -134,10 +145,12 @@ $secondary-bg: #a15805;
         &:nth-child(2n + 1) {
           padding: 0 14px;
         }
+
         color: #fff;
       }
     }
   }
+
   /* Banner */
   .banner {
     position: relative;
@@ -147,40 +160,46 @@ $secondary-bg: #a15805;
     height: 650px;
     justify-content: center;
     width: 100%;
-    .content {
-    }
+
     &__extra {
       position: relative;
 
       padding: 0 60px;
       color: #fff;
       line-height: 1.1;
+
       /* display: flex;
       flex-direction: column;
       align-items: center; */
       * {
         margin: 20px 0;
       }
+
       h2 {
         font-size: 2.5rem;
         font-weight: 300;
       }
+
       h1 {
         font-size: 3.8rem;
 
         font-weight: 600;
       }
+
       p {
         margin-bottom: 40px;
       }
     }
+
     &__image {
       display: flex;
 
       position: relative;
+
       img {
         border-top-left-radius: 10rem;
       }
+
       z-index: 21;
     }
   }
@@ -188,24 +207,29 @@ $secondary-bg: #a15805;
 
 .card {
   padding: 40px 130px;
+
   .content {
     display: flex;
     align-items: center;
     gap: 40px;
     padding: 30px;
   }
+
   &__image {
     flex: 50%;
     height: 500px;
     display: flex;
     border-radius: 3rem;
     overflow: hidden;
+
     img {
       object-fit: cover;
     }
   }
+
   &__info {
     flex: 50%;
+
     h2 {
       font-size: 3rem;
       margin-top: 15px;
@@ -226,8 +250,7 @@ $secondary-bg: #a15805;
 }
 
 /* Work-office */
-.work-office {
-}
+
 /* Work commercial */
 
 .work-commercial {
@@ -237,3 +260,14 @@ $secondary-bg: #a15805;
     border-radius: 1rem;
   }
 }
+
+
+/* responsive style */
+
+
+
+@media (max-width: 640px) {}
+
+@media (max-width: 768px) {}
+
+@media (min-width: 1280px) {}
